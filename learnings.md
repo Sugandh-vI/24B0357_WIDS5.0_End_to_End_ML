@@ -71,3 +71,63 @@ This document summarizes the key observations, insights, and challenges identifi
 ## Final Reflection
 
 This exploratory analysis helped build a strong foundational understanding of the dataset. By focusing on data characteristics and challenges early on, we are better equipped to make informed decisions regarding preprocessing, model selection, and evaluation strategies in the next stages of the project.
+
+
+# Week 2 – Learnings
+
+## Overview
+In Week 2, I worked on building an end-to-end machine learning pipeline for plant disease classification using traditional machine learning techniques. This week focused on understanding how image data can be processed and used with classical ML models instead of deep learning.
+
+---
+
+## Key Learnings
+
+### 1. Image Data Handling for Machine Learning
+I learned how raw image data cannot be directly used by traditional machine learning models. Images must be converted into numerical feature vectors by:
+- Resizing images to a fixed dimension for consistency
+- Normalizing pixel values to bring them into a common range
+- Flattening images into one-dimensional vectors
+
+This step is crucial for making image data compatible with classical ML algorithms.
+
+---
+
+### 2. Dataset Structure and Label Extraction
+I understood how folder-based datasets work, where each folder represents a class label. Extracting labels directly from directory names helps automate dataset labeling and reduces manual errors.
+
+---
+
+### 3. Importance of Train-Test Splitting
+I learned how to properly split data into training and testing sets using:
+- An 80–20 split for fair evaluation
+- Stratification to preserve class distribution
+- Fixed random state to ensure reproducibility
+
+This ensures reliable and unbiased model evaluation.
+
+---
+
+### 4. Feature Scaling and Preprocessing
+I learned why feature scaling is important, especially for machine learning models that rely on distance or magnitude of features. Applying scaling after splitting the dataset helps avoid data leakage.
+
+---
+
+### 5. Baseline Modeling
+I understood the importance of establishing a baseline using a Dummy Classifier. This helped in setting a minimum performance benchmark and evaluating whether the trained model is actually learning meaningful patterns.
+
+---
+
+### 6. Random Forest Classifier
+I gained practical experience with Random Forest, an ensemble learning algorithm that combines multiple decision trees. I learned how:
+- Multiple trees reduce overfitting
+- Random sampling improves generalization
+- Majority voting determines final predictions
+
+This model significantly outperformed the baseline classifier.
+
+---
+
+
+## Key Takeaway
+This week helped me understand that even without deep learning, traditional machine learning models combined with proper preprocessing can achieve strong performance on image classification tasks. It strengthened my understanding of end-to-end ML workflows and model evaluation strategies.
+
