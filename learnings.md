@@ -73,7 +73,7 @@ This document summarizes the key observations, insights, and challenges identifi
 This exploratory analysis helped build a strong foundational understanding of the dataset. By focusing on data characteristics and challenges early on, we are better equipped to make informed decisions regarding preprocessing, model selection, and evaluation strategies in the next stages of the project.
 
 
-# Week 2 – Learnings
+# Week 2 Learnings - Baseline Challenge
 
 ## Overview
 In Week 2, I worked on building an end-to-end machine learning pipeline for plant disease classification using traditional machine learning techniques. This week focused on understanding how image data can be processed and used with classical ML models instead of deep learning.
