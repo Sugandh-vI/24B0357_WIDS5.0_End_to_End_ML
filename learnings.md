@@ -125,6 +125,48 @@ I gained practical experience with Random Forest, an ensemble learning algorithm
 
 This model significantly outperformed the baseline classifier.
 
+
+# Learnings – Week 3 (Deep Learning on PlantVillage Dataset)
+
+## 1. From Hand-Crafted Features to Learned Features
+In Week 2, classical machine learning models relied on manually engineered
+features and achieved limited performance (baseline accuracy ≈ 0.67).
+In Week 3, Convolutional Neural Networks learned features directly from raw
+images, capturing spatial patterns such as edges, textures, and disease regions.
+
+## 2. Understanding CNN Behavior
+Training a simple CNN from scratch significantly improved performance
+(≈ 90% validation accuracy). Early epochs showed rapid learning, while later
+epochs revealed signs of overfitting, emphasizing the importance of monitoring
+training and validation curves rather than relying only on final accuracy.
+
+## 3. Importance of Transfer Learning
+Transfer Learning using MobileNetV2 further improved accuracy (≈ 93%) with
+faster convergence and reduced overfitting. Pretrained models already encode
+general visual knowledge, allowing the classifier to focus on disease-specific
+patterns with fewer trainable parameters.
+
+## 4. Role of Data Augmentation
+Applying random rotations, flips, and zoom helped improve generalization by
+exposing the model to varied representations of the same disease class, making
+the model more robust to real-world variations.
+
+## 5. Practical Insights from Confusion Matrix Analysis
+With 38 classes, raw confusion matrices become difficult to interpret.
+Normalized confusion matrices provided clearer insights into class-wise
+performance and revealed that most misclassifications occurred between visually
+similar plant diseases.
+
+## 6. Key Takeaway
+Deep learning models outperform shallow machine learning approaches for
+image-based tasks, and transfer learning offers a practical and efficient
+solution for achieving high accuracy with limited training time and reduced
+overfitting.
+
+Overall, this week demonstrated how modern deep learning models move beyond
+manual feature design and enable scalable, real-world image classification.
+
+
 ---
 
 
