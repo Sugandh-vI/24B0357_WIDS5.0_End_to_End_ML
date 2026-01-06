@@ -168,9 +168,7 @@ Overall, WiDS 5.0 strengthened my understanding of **practical machine learning 
 ```text
 ├── notebooks/
 │   ├── 01_eda.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_baseline_model.ipynb
-│   ├── 04_simple_cnn.ipynb
-│   └── 05_transfer_learning.ipynb
+│   ├── 02_baseline_model.ipynb
+│   ├── 03_cnn.ipynb
 ├── learnings.md
 ├── README.md
