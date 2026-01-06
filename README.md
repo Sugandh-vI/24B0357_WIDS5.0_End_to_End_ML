@@ -51,7 +51,6 @@ The project was completed in a **step-by-step end-to-end manner**, as outlined b
 - Identified class imbalance and inter-class similarity
 - Understood why plant disease classification is a challenging task
 
-📄 Notebook: `01_eda.ipynb`
 
 ---
 
@@ -62,7 +61,6 @@ The project was completed in a **step-by-step end-to-end manner**, as outlined b
 - Conversion of labels into numerical format
 - Efficient data loading for model training
 
-📄 Notebook: `02_preprocessing.ipynb`
 
 ---
 
@@ -73,7 +71,6 @@ The project was completed in a **step-by-step end-to-end manner**, as outlined b
 - Observed **underfitting and limited generalization**
 - Achieved baseline accuracy of approximately **0.67**
 
-📄 Notebook: `03_baseline_model.ipynb`
 
 ---
 
@@ -86,7 +83,6 @@ The project was completed in a **step-by-step end-to-end manner**, as outlined b
   - Better feature extraction
   - Signs of overfitting after multiple epochs
 
-📄 Notebook: `04_simple_cnn.ipynb`
 
 ---
 
@@ -100,7 +96,6 @@ The project was completed in a **step-by-step end-to-end manner**, as outlined b
   - Confusion Matrix
   - Validation performance
 
-📄 Notebook: `05_transfer_learning.ipynb`
 
 ---
 
